@@ -100,9 +100,10 @@
 ;; '(org-level-2 ((t (:foreground "#ff8000"))))
 ;; '(org-level-3 ((t (:foreground "#00ff80")))))
 
+;; Colours for org mode heading levels
 (custom-set-faces
  '(org-level-1 ((t (:foreground "#ff8000"))))    ;; Orange
- '(org-level-2 ((t (:foreground "#ffff66"))))    ;;#a7963f #e6c000 ;;yellow
+ '(org-level-2 ((t (:foreground "#ffdd99"))))    ;;#a7963f #e6c000 #ffff66 #ffd480;;yellow
  '(org-level-3 ((t (:foreground "#3399ff"))))    ;; Blue #3399ff #007fff
  '(org-level-4 ((t (:foreground "#ff8000"))))    ;; Orange
  )
@@ -149,3 +150,6 @@
 ;; Modifying the display template to show the node “type”
 (setq org-roam-node-display-template
       (concat "${type:15} ${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
+
+(setq doom-font (font-spec :size 17))
+(setq display-line-numbers-type 'relative)
