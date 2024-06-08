@@ -14,13 +14,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(hl-line ((t (:foreground "#634832"))))
+ '(hl-line ((t (:extend t :background "#131721" :foreground "dark gray"))))
  '(hl-line-face ((t (:foreground "#634832"))))
  '(hl-line-overlay ((t (:foreground "#634832"))))
  '(hl-line-unhighlight ((t (:foreground "#634832"))))
- '(org-level-1 ((t (:foreground "#ff8000"))))
- '(org-level-2 ((t (:foreground "#ffdd99"))))
- '(org-level-3 ((t (:foreground "#3399ff"))))
- '(org-level-4 ((t (:foreground "#ff8000"))))
- '(org-level-5 ((t (:foreground "#f2d7e8"))))
+ '(org-level-1 ((t (:foreground "#ffd5a4"))))
+ '(org-level-2 ((t (:foreground "#dbc1ac"))))
+ '(org-level-3 ((t (:foreground "#967259"))))
+ '(org-level-4 ((t (:foreground "#ffcb85"))))
+ '(org-level-5 ((t (:foreground "#634832"))))
  '(org-level-6 ((t (:foreground "#fae7eb")))))
