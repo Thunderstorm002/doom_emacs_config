@@ -116,15 +116,6 @@
   :config
   (setq org-modern-label-border 0.3))
 
-;; Attempt at changing the font color of org-mode headings
- (custom-set-faces
- '(org-level-1 ((t (:foreground "#ff8000"))))    ;; Orange
- '(org-level-2 ((t (:foreground "#ffdd99"))))    ;;#a7963f #e6c000 #ffff66 #ffd480;;yellow
- '(org-level-3 ((t (:foreground "#ba752f"))))    ;; Brown? #3399ff #007fff
- '(org-level-4 ((t (:foreground "#ff8000"))))    ;; Orange
- )
-
-
 ;; org-xournalpp configs
 (use-package! org-xournalpp
   :config
@@ -200,3 +191,73 @@
  :host "localhost:11434"                ;Where it's running
  :models '("llama2:latest")            ;Installed models
  :stream t)                             ;Stream responses
+
+;; Attempt at changing the font color of org-mode headings
+; (custom-set-faces
+; '(org-level-1 ((t (:foreground "#ff8000"))))    ;; Orange
+; '(org-level-2 ((t (:foreground "#ffdd99"))))    ;;#a7963f #e6c000 #ffff66 #ffd480;;yellow
+; '(org-level-3 ((t (:foreground "#ba752f"))))    ;; Brown? #3399ff #007fff
+; '(org-level-4 ((t (:foreground "#ff8000"))))    ;; Orange
+; )
+
+;; Some paletts from https://www.color-hex.com/color-palette/
+;;; Cream Coffee Color Palette
+ (custom-set-faces
+  '(org-level-1 ((t (:foreground "#ffd5a4"))))  ;; #ece0d1
+  '(org-level-2 ((t (:foreground "#dbc1ac"))))
+  '(org-level-3 ((t (:foreground "#967259"))))
+  '(org-level-4 ((t (:foreground "#ffcb85")))) ;; #38220f
+  '(org-level-5 ((t (:foreground "#634832"))))
+  )
+
+;; say the name! seventeen
+; (custom-set-faces
+;  '(org-level-1 ((t (:foreground "#f7cac9"))))
+;  '(org-level-2 ((t (:foreground "#dec2cb"))))
+;  '(org-level-3 ((t (:foreground "#c5b9cd"))))
+;  '(org-level-4 ((t (:foreground "#abb1cf"))))
+;  '(org-level-5 ((t (:foreground "#92a8d1"))))
+;  )
+
+;; City Sunset Color Palette
+; (custom-set-faces
+;  '(org-level-1 ((t (:foreground "#eeaf61"))))
+;  '(org-level-2 ((t (:foreground "#fb9062"))))
+;  '(org-level-3 ((t (:foreground "#ee5d6c"))))
+;  '(org-level-4 ((t (:foreground "#ce4993"))))
+;  '(org-level-5 ((t (:foreground "#6a0d83"))))
+;  )
+
+;; '(org-level-5 ((t (:foreground "#81a9d9")))) good blue
+;; Some pastel color palets from https://kdesign.co/blog/pastel-color-palette-examples/
+;; Pastel Blue Color Palettes
+;; Cotton candy cloud
+; (custom-set-faces
+; '(org-level-1 ((t (:foreground "#d1edea"))))
+; '(org-level-2 ((t (:foreground "#ecf8f7"))))
+; '(org-level-3 ((t (:foreground "#d8bbd3"))))
+; '(org-level-4 ((t (:foreground "#f2d7e8"))))
+; '(org-level-5 ((t (:foreground "#fae7eb"))))
+; '(org-level-6 ((t (:foreground "#b58ebc"))))
+; )
+
+;; Waterfall
+; (custom-set-faces
+; '(org-level-1 ((t (:foreground "#a8cad6"))))
+; '(org-level-2 ((t (:foreground "#c2ebef"))))
+; '(org-level-3 ((t (:foreground "#e5f8f8"))))
+; '(org-level-4 ((t (:foreground "#eef6f2"))))
+; '(org-level-5 ((t (:foreground "#d5e3e4"))))
+; '(org-level-6 ((t (:foreground "#d6dfe8"))))
+; )
+
+;;; Pastel Orange Color Palettes
+;;; Mango Smoothie
+; (custom-set-faces
+; '(org-level-1 ((t (:foreground "#ffd5a4"))))
+; '(org-level-2 ((t (:foreground "#fdeac3"))))
+; '(org-level-3 ((t (:foreground "#c8a18f"))))
+; '(org-level-4 ((t (:foreground "#ffb5a4"))))
+; '(org-level-5 ((t (:foreground "#ffeada"))))
+; '(org-level-6 ((t (:foreground "#f4cbba"))))
+; )
