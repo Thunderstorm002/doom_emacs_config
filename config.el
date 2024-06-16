@@ -101,11 +101,20 @@
 ;; '(org-level-3 ((t (:foreground "#00ff80")))))
 
 ;; Colours for org mode heading levels
+                                        ; (custom-set-faces
+                                        ;  '(org-level-1 ((t (:foreground "#ff8000"))))    ;; Orange
+                                        ;  '(org-level-2 ((t (:foreground "#ffdd99"))))    ;;#a7963f #e6c000 #ffff66 #ffd480;;yellow
+                                        ;  '(org-level-3 ((t (:foreground "#3399ff"))))    ;; Blue #3399ff #007fff
+                                        ;  '(org-level-4 ((t (:foreground "#ff8000"))))    ;; Orange
+                                        ;  )
+;; Some paletts from https://www.color-hex.com/color-palette/
+;;; Cream Coffee Color Palette
 (custom-set-faces
- '(org-level-1 ((t (:foreground "#ff8000"))))    ;; Orange
- '(org-level-2 ((t (:foreground "#ffdd99"))))    ;;#a7963f #e6c000 #ffff66 #ffd480;;yellow
- '(org-level-3 ((t (:foreground "#3399ff"))))    ;; Blue #3399ff #007fff
- '(org-level-4 ((t (:foreground "#ff8000"))))    ;; Orange
+ '(org-level-1 ((t (:foreground "#ffd5a4"))))  ;; #ece0d1
+ '(org-level-2 ((t (:foreground "#dbc1ac"))))
+ '(org-level-3 ((t (:foreground "#967259"))))
+ '(org-level-4 ((t (:foreground "#ffcb85")))) ;; #38220f
+ '(org-level-5 ((t (:foreground "#634832"))))
  )
 
 ;; org-xournalpp
