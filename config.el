@@ -162,3 +162,5 @@
 
 (setq doom-font (font-spec :size 17))
 (setq display-line-numbers-type 'relative)
+
+(setq inferior-lisp-program "sbcl")
